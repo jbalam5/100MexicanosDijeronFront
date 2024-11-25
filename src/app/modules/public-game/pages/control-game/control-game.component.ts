@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import Swal from 'sweetalert2'
 import { Question } from '../../../models/question.model';
 import { Score } from '../../../models/score.model';
+import { ControlGameService } from './control-game.service';
 
 @Component({
   selector: 'app-control-game',
@@ -122,6 +123,10 @@ export class ControlGameComponent {
   public currentScore:Score = new Score();
   private isFinishedRound:boolean = false;
 
+  constructor(
+    private controlGameService:ControlGameService
+  ){ }
+
   public showAnswer(data:any){
     console.log(data);
     data.visible = !data.visible;
@@ -129,6 +134,7 @@ export class ControlGameComponent {
     if(!this.isFinishedRound){
       if(data.visible){
         this.currentScore.totalPoints += data.value;
+        this.controlGameService.play(this.controlGameService.audioAnswerd);
       }else{
         this.currentScore.totalPoints -= data.value;
       }
@@ -156,6 +162,7 @@ export class ControlGameComponent {
         this.getNextQuestion();
         this.updateInfo();
         Swal.fire("Partida Iniciada", "", "success");
+        this.controlGameService.play(this.controlGameService.audioIntro);
       }
     });
   }
@@ -200,6 +207,7 @@ export class ControlGameComponent {
     this.currentScore.totalError = 0;
 
     this.updateInfo();
+    this.controlGameService.play(this.controlGameService.audioFinishedRound);
   }
 
   async nextRound(){
@@ -216,7 +224,7 @@ export class ControlGameComponent {
     this.isFinishedRound = false;
     this.getNextQuestion();
     this.updateInfo();
-
+    this.controlGameService.play(this.controlGameService.audioIntro);
   }
 
   addStrike(){
@@ -225,6 +233,7 @@ export class ControlGameComponent {
     }
 
     if(this.currentScore.totalError < 3){
+      this.controlGameService.play(this.controlGameService.audioStrike);
       this.currentScore.totalError += 1;
       this.updateInfo();
     }
