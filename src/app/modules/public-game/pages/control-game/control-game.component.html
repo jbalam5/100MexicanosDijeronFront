@@ -1,0 +1,190 @@
+<div class="container mx-auto">
+    <div class="lg:flex lg:items-center lg:justify-between px-5 py-9">
+        <div class="min-w-0 flex-1">
+            <h2 class="text-2xl/7 font-bold sm:truncate sm:text-3xl sm:tracking-tight">100 Mexicanos Dijeron</h2>
+        </div>
+        <div class="mt-5 flex lg:ml-4 lg:mt-0">
+            <span class="sm:ml-3">
+                <button type="button" (click)="newGame()"
+                    class="inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="size-4 -ml-0.5 mr-1.5 ">
+                        <path fill-rule="evenodd"
+                            d="M13.836 2.477a.75.75 0 0 1 .75.75v3.182a.75.75 0 0 1-.75.75h-3.182a.75.75 0 0 1 0-1.5h1.37l-.84-.841a4.5 4.5 0 0 0-7.08.932.75.75 0 0 1-1.3-.75 6 6 0 0 1 9.44-1.242l.842.84V3.227a.75.75 0 0 1 .75-.75Zm-.911 7.5A.75.75 0 0 1 13.199 11a6 6 0 0 1-9.44 1.241l-.84-.84v1.371a.75.75 0 0 1-1.5 0V9.591a.75.75 0 0 1 .75-.75H5.35a.75.75 0 0 1 0 1.5H3.98l.841.841a4.5 4.5 0 0 0 7.08-.932.75.75 0 0 1 1.025-.273Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    Nueva Partida
+                </button>
+            </span>
+
+            <span class="ml-3 hidden sm:block">
+                <button type="button" (click)="finishedRound()"
+                    class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 hover:bg-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="size-4 -ml-0.5 mr-1.5 ">
+                        <path
+                            d="M2.53 3.956A1 1 0 0 0 1 4.804v6.392a1 1 0 0 0 1.53.848l5.113-3.196c.16-.1.279-.233.357-.383v2.73a1 1 0 0 0 1.53.849l5.113-3.196a1 1 0 0 0 0-1.696L9.53 3.956A1 1 0 0 0 8 4.804v2.731a.992.992 0 0 0-.357-.383L2.53 3.956Z" />
+                    </svg>
+                    Terminar Ronda
+                </button>
+            </span>
+
+            <span class="ml-3 hidden sm:block">
+                <button type="button" (click)="nextRound()"
+                    class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 hover:bg-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="size-4 -ml-0.5 mr-1.5 ">
+                        <path
+                            d="M2.53 3.956A1 1 0 0 0 1 4.804v6.392a1 1 0 0 0 1.53.848l5.113-3.196c.16-.1.279-.233.357-.383v2.73a1 1 0 0 0 1.53.849l5.113-3.196a1 1 0 0 0 0-1.696L9.53 3.956A1 1 0 0 0 8 4.804v2.731a.992.992 0 0 0-.357-.383L2.53 3.956Z" />
+                    </svg>
+                    Siguiente Ronda
+                </button>
+            </span>
+            <span class="ml-3 hidden sm:block">
+                <button type="button" (click)="addStrike()"
+                    class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-white-50 shadow-sm bg-red-600 hover:bg-red-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 -ml-0.5 mr-1.5" >
+                        <path
+                            d="M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z" />
+                    </svg>
+                    Marcar strike
+                </button>
+            </span>
+
+            <span class="sm:ml-3 hidden sm:block">
+                <a href="/public/board" target="_blank"
+                    class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 hover:bg-gray-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 -ml-0.5 mr-1.5">
+                        <path fill-rule="evenodd"
+                            d="M15 11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6ZM7.25 7.5a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0-.5.5V8a.5.5 0 0 0 .5.5h3.75a.5.5 0 0 0 .5-.5v-.5Zm1.5 3a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 .5.5v.5a.5.5 0 0 1-.5.5H9.25a.5.5 0 0 1-.5-.5v-.5ZM13.5 8v-.5A.5.5 0 0 0 13 7H9.25a.5.5 0 0 0-.5.5V8a.5.5 0 0 0 .5.5H13a.5.5 0 0 0 .5-.5Zm-6.75 3.5a.5.5 0 0 0 .5-.5v-.5a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0-.5.5v.5a.5.5 0 0 0 .5.5h3.75Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    Abrir Tablero
+                </a>
+            </span>
+
+            <!-- Dropdown -->
+            <div class="relative ml-3 sm:hidden">
+                <button type="button"
+                    class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:ring-gray-400"
+                    id="mobile-menu-button" aria-expanded="false" aria-haspopup="true">
+                    Más Opciones
+                    <svg class="-mr-1 ml-1.5 size-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor"
+                        aria-hidden="true" data-slot="icon">
+                        <path fill-rule="evenodd"
+                            d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <div class="absolute right-0 z-10 -mr-1 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none"
+                    role="menu" aria-orientation="vertical" aria-labelledby="mobile-menu-button" tabindex="-1">
+                    <!-- Active: "bg-gray-100 outline-none", Not Active: "" -->
+                    <button (click)="nextRound()" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                        id="mobile-menu-item-0">Siguiente Ronda</button>
+                    <button (click)="addStrike()" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                        id="mobile-menu-item-1">Marcar strike</button>
+                    <a href="/public/board" target="_blank" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                        id="mobile-menu-item-1">Abrir Tablero</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-flow-row auto-rows-max block px-5 py-9">
+        <div class="mt-1 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap sm:space-x-6 mb-9">
+            <div class="mt-2 flex items-center text-sm text-gray-500 text-5xl text-center pr-5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="size-6 text-white">
+                    <path fill-rule="evenodd"
+                        d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z"
+                        clip-rule="evenodd" />
+                    <path
+                        d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
+                </svg>
+
+                <span class="text-white text-4xl ">
+                    Equipo 1:
+                    <span class="goldtext">
+                        {{ currentScore.totalTeamOne }}
+                    </span>
+
+                </span>
+            </div>
+            <div class="mt-2 flex items-center text-sm text-gray-500 text-5xl text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="size-6 text-white">
+                    <path fill-rule="evenodd"
+                        d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z"
+                        clip-rule="evenodd" />
+                    <path
+                        d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
+                </svg>
+
+                <span class="text-white text-4xl">
+                    Equipo 2:
+                    <span class="goldtext">
+                        {{ currentScore.totalTeamTwo }}
+                    </span>
+
+                </span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-6 shadow-lg">
+            <div></div>
+            <div class="col-span-4 py-5 text-center text-4xl border-4 border-b-0  border-yellow-400 px-5">
+                <h1 class=""> {{ currentTextQuestion }}</h1>
+            </div>
+            <div></div>
+        </div>
+
+        <div class="text-center text-5xl rounded-t-lg border-4 border-yellow-400 px-5 py-2 text-yellow-300">
+            Puntos de la ronda {{ currentScore.currentRound }}: {{ currentScore.totalPoints}}
+        </div>
+        <div class="text-5xl rounded-b-lg border-4 border-yellow-400 px-5 py-2">
+            @if(currentQuestion){
+            <ol class="text-yellow-300 divide-y divide-dashed">
+                @for (item of currentQuestion.answers; track $index; let i = $index) {
+                <li class="flex  justify-between py-5">
+                    <span>
+                        {{ i+1 }}. {{ item.text }}
+                    </span>
+                    <span>
+                        {{ item.value }}
+                        <button type="button" (click)="showAnswer(item)"
+                            class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 ">
+                            @if (!item.visible){
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="size-6">
+                                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                                <path fill-rule="evenodd"
+                                    d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            }
+                            @else {
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            }
+                        </button>
+                    </span>
+                </li>
+                }
+            </ol>
+            }
+        </div>
+        <div class="grid grid-cols-1 text-center text-9xl text-red-500">
+            <span>
+                @for (item of getCounterError(currentScore.totalError); track $index) {
+                X
+                }
+            </span>
+        </div>
+    </div>
+</div>

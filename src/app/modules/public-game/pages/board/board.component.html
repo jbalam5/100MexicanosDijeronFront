@@ -1,1 +1,78 @@
-<p>board works!</p>
+<div class="container mx-auto px-4 py-8">
+    <div class="grid grid-flow-row auto-rows-max block px-5 py-9">
+        @if( currentScore.currentRound > 0){
+            <div class="grid grid-cols-6 shadow-lg">
+                <div></div>
+                <div class="col-span-4 text-center text-5xl rounded-t-lg border-4 border-yellow-400 px-5 py-2 text-white-300">
+                    Ronda {{ currentScore.currentRound }} <br>
+                    <span class="goldtext text-7xl">
+                        {{ currentScore.totalPoints }}
+                    </span> 
+                </div>
+                <div></div>
+            </div>
+        }
+        <div class="grid grid-cols-6 shadow-lg">
+            <div></div>
+            <div class="col-span-4 py-5 text-center text-4xl border-4 border-b-0  border-yellow-400 px-5">
+                <h1 class=""> {{ currentTextQuestion }}</h1>
+            </div>
+            <div></div>
+        </div>
+        <div class="grid grid-cols-6 shadow-lg">
+            <div class="col-span-1 text-5xl text-center">
+                <div class="border-4 border-r-0 border-yellow-400  px-5 py-2">
+                    Equipo 1
+                    <span class="goldtext text-7xl">
+                        {{ currentScore.totalTeamOne }}
+                    </span>
+                </div>
+            </div>
+            <div class="col-span-4 text-5xl rounded-b-lg border-4 border-yellow-400 px-5 py-2">
+
+                <ol class="text-yellow-300 divide-y divide-dashed">
+                    @for (item of currentQuestion?.answers; track $index; let  i = $index) {
+                        <li class="flex  justify-between py-5">
+                            @if (!item.visible){
+                                <span>
+                                    {{ i+1 }}. 
+                                </span>
+                            }
+                            @else {
+                                <span>
+                                    {{ i+1 }}. {{ item.text }}
+                                </span>
+                                <span>
+                                    {{ item.value }}
+                                </span>
+                            }
+                        </li>
+                    }
+                </ol>
+            </div>
+            <div class="col-span-1 text-5xl text-center">
+                <div class="border-4 border-l-0 border-yellow-400 px-5 py-2">
+                    Equipo 2
+                    <span class="goldtext text-7xl">
+                        {{ currentScore.totalTeamTwo }}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 text-center text-9xl text-red-500">
+            <span>
+                @for (item of getCounterError(currentScore.totalError); track $index) {
+                    X 
+                }
+            </span>
+        </div>
+    </div>
+</div>
+
+<style>
+    
+    body{
+        background-color: #000000 !important;
+        color: #ffffff !important;
+    }
+</style>

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.goldtext {
+    // color: #D5AD6D; /*if no support for background-clip*/
+    // background: -webkit-linear-gradient(transparent, transparent),
+    // -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    // background: -o-linear-gradient(transparent, transparent);
+    font-weight: 800;
+    color: #fff;
+    background: -webkit-linear-gradient(transparent, transparent), -webkit-linear-gradient(top, rgb(201 189 170) 0%, rgb(215 205 187) 26%, rgb(221 201 167) 35%, rgb(151 135 108) 45%, rgb(145, 112, 59) 61%, rgb(223 213 197) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
