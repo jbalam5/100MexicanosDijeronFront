@@ -3,6 +3,7 @@ import Swal from 'sweetalert2'
 import { Question } from '../../../models/question.model';
 import { Score } from '../../../models/score.model';
 import { ControlGameService } from './control-game.service';
+// import * as JSONData from '../../../../../../public/questions.json';
 
 @Component({
   selector: 'app-control-game',
@@ -125,7 +126,11 @@ export class ControlGameComponent {
 
   constructor(
     private controlGameService:ControlGameService
-  ){ }
+  ){ 
+    controlGameService.getQuestions().then(response=> {
+      this.questions = response;
+    });
+  }
 
   public showAnswer(data:any){
     console.log(data);
@@ -259,9 +264,11 @@ export class ControlGameComponent {
       console.log(this.questions);
       console.log(this.currentQuestion);
     }else{
-      this.currentQuestion = new Question();
       this.currentScore.isFinished = true;
-
+      this.updateInfo();
+      
+      this.currentQuestion = new Question();
+      
       if(this.currentScore.totalTeamOne === this.currentScore.totalTeamTwo){
         Swal.fire("Equipos empatados", "", "success");
       }else if (this.currentScore.totalTeamOne >= this.currentScore.totalTeamTwo){
@@ -269,6 +276,11 @@ export class ControlGameComponent {
       }else{
         Swal.fire("Ganador: Equipo 2", "", "success");
       }
+
+      this.currentScore = new Score();
+      this.currentTextQuestion = "Bienvenido!!!";
+      this.updateInfo();
+      
     }
   }
 

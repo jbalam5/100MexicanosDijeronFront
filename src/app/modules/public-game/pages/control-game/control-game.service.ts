@@ -1,3 +1,4 @@
+import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
 @Injectable({
@@ -17,5 +18,9 @@ import { Injectable } from "@angular/core";
         audio.src = audioName;
         audio.load();
         audio.play();
+    }
+
+    getQuestions(){
+      return fetch('/questions.json').then(res => res.json());
     }
   }
