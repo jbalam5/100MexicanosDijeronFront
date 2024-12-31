@@ -1,1 +1,1802 @@
-[{"id":1,"question":"Si fueras Vicente Fernán- dez ¿Qué animal sería el consentido de tu rancho?","answers":[{"text":"CABALLO","value":80,"visible":false},{"text":"PERRO","value":4,"visible":false},{"text":"GALLO","value":3,"visible":false},{"text":"LEÓN","value":2,"visible":false},{"text":"TORO","value":1,"visible":false}]},{"id":2,"question":"Si fueras Vicente Fernán- dez ¿Qué animal sería el consentido de tu rancho?","answers":[{"text":"CABALLO","value":80,"visible":false},{"text":"PERRO","value":4,"visible":false},{"text":"GALLO","value":3,"visible":false},{"text":"LEÓN","value":2,"visible":false},{"text":"TORO","value":1,"visible":false}]}]
+[{
+        "id": 1,
+        "question": "¿Cuántas pestañas tienes?",
+        "answers": [{
+                "text": "CINCUENTA",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "CIEN",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "VEINTE",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "CUATRO",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "TREINTA",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 2,
+        "question": "Cuando un hombre tiene barba ¿Qué te molesta en tu cara cuando besa?",
+        "answers": [{
+                "text": "LABIOS",
+                "value": 48,
+                "visible": false
+            }, {
+                "text": "MEJILLA",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "CARA",
+                "value": 11,
+                "visible": false
+            }, {
+                "text": "NARIZ",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "CUELLO",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 3,
+        "question": "En una cita a ciegas, ¿Qué te pondrías para que te reconocieran?",
+        "answers": [{
+                "text": "FLOR",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "GORRA",
+                "value": 21,
+                "visible": false
+            }, {
+                "text": "SOMBRERO",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "LLAMATIVO",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "BUFANDA",
+                "value": 17,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 4,
+        "question": "Si un maniquí pudiera hablar ¿Qué diría sobre su trabajo o función?",
+        "answers": [{
+                "text": "ABURRIDO",
+                "value": 39,
+                "visible": false
+            }, {
+                "text": "CANSADO",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "EXCELENTE",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "FÁCIL",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "FLOJO",
+                "value": 10,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 5,
+        "question": "Algo que caracteriza a un militar.",
+        "answers": [{
+                "text": "UNIFORME",
+                "value": 58,
+                "visible": false
+            }, {
+                "text": "ARMA",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "BOTAS",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "TRAJE",
+                "value": 5,
+                "visible": false
+            }, {
+                "text": "CORTE DE PELO",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 6,
+        "question": "Prenda de vestir que puedes usar cuando hace frío o calor.",
+        "answers": [{
+                "text": "PANTALÓN",
+                "value": 42,
+                "visible": false
+            }, {
+                "text": "SUÉTER",
+                "value": 26,
+                "visible": false
+            }, {
+                "text": "ROPA INTERIOR",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "CAMISA",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "PLAYERA",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 7,
+        "question": "¿Cuántos dientes tienes?",
+        "answers": [{
+                "text": "VEINTE",
+                "value": 28,
+                "visible": false
+            }, {
+                "text": "TREINTA Y DOS",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "VEINTICINCO",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "VEINTIOCHO",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "TREINTA",
+                "value": 15,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 8,
+        "question": "Sabor de una malteada.",
+        "answers": [{
+                "text": "FRESA",
+                "value": 49,
+                "visible": false
+            }, {
+                "text": "CHOCOLATE",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "VAINILLA",
+                "value": 21,
+                "visible": false
+            }, {
+                "text": "PLÁTANO",
+                "value": 6,
+                "visible": false
+            }, {
+                "text": "CAFÉ",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 9,
+        "question": "Si tus zapatos hablaran, ¿Qué te dirían?",
+        "answers": [{
+                "text": "QUIERO DESCANSAR",
+                "value": 38,
+                "visible": false
+            }, {
+                "text": "COMPRA OTROS",
+                "value": 25,
+                "visible": false
+            }, {
+                "text": "LÁVAME",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "CAMINA",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "PESAS",
+                "value": 6,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 10,
+        "question": "¿A qué edad aprendiste a bailar?",
+        "answers": [{
+                "text": "QUINCE",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "CATORCE",
+                "value": 28,
+                "visible": false
+            }, {
+                "text": "DIEZ",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "CINCO",
+                "value": 11,
+                "visible": false
+            }, {
+                "text": "DOCE",
+                "value": 10,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 11,
+        "question": "Algo que, si lo aprendes bien, no se olvida nunca.",
+        "answers": [{
+                "text": "BICICLETA",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "BAILAR",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "MANEJAR",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "LEER",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "IDIOMA",
+                "value": 11,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 12,
+        "question": "Si no tuvieras que trabajar ¿Qué harías de tu vida?",
+        "answers": [{
+                "text": "VIAJAR",
+                "value": 50,
+                "visible": false
+            }, {
+                "text": "DEPORTE",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "AYUDAR",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "DESCANSAR",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "PASEAR",
+                "value": 5,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 13,
+        "question": "Si un extraterrestre es tu guía turístico del espacio ¿Dónde querrías ir?",
+        "answers": [{
+                "text": "MARTE",
+                "value": 38,
+                "visible": false
+            }, {
+                "text": "LUNA",
+                "value": 35,
+                "visible": false
+            }, {
+                "text": "PLUTÓN",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "SU PLANETA",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "GALAXIAS",
+                "value": 3,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 14,
+        "question": "¿Cada cuándo lavas tu auto?",
+        "answers": [{
+                "text": "1 VEZ POR SEMANA",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "15 DIAS",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "1 AL MES",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "2 VECES AL MES",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "2 VECES A LA SEMANA",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 15,
+        "question": "Además de huevos ¿Otro ingrediente para hacer un pastel?",
+        "answers": [{
+                "text": "HARINA",
+                "value": 48,
+                "visible": false
+            }, {
+                "text": "LECHE",
+                "value": 39,
+                "visible": false
+            }, {
+                "text": "AZÚCAR",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "FRUTA",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "MANTEQUILLA",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 16,
+        "question": "¿Cuántas veces masticas un bocado antes de pasártelo?",
+        "answers": [{
+                "text": "CINCO",
+                "value": 28,
+                "visible": false
+            }, {
+                "text": "DIEZ",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "TRES",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "OCHO",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "DOS",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 17,
+        "question": "¿Qué ritmo aprendiste a bailar por primera vez?",
+        "answers": [{
+                "text": "CUMBIA",
+                "value": 40,
+                "visible": false
+            }, {
+                "text": "SALSA",
+                "value": 37,
+                "visible": false
+            }, {
+                "text": "MERENGUE",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "BANDA",
+                "value": 5,
+                "visible": false
+            }, {
+                "text": "DISCO",
+                "value": 3,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 18,
+        "question": "Si un boxeador hiciera una venta de garaje ¿Qué objetos encontrarías?",
+        "answers": [{
+                "text": "GUANTES",
+                "value": 73,
+                "visible": false
+            }, {
+                "text": "SHORTS",
+                "value": 10,
+                "visible": false
+            }, {
+                "text": "CINTURONES",
+                "value": 7,
+                "visible": false
+            }, {
+                "text": "COSTAL",
+                "value": 64,
+                "visible": false
+            }, {
+                "text": "VENDAS",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 19,
+        "question": "Si no tuvieras platos limpios ¿Sobre qué pondrías tu comida?",
+        "answers": [{
+                "text": "SERVILLETAS",
+                "value": 47,
+                "visible": false
+            }, {
+                "text": "MANO",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "MESA",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "PLÁSTICO",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "CAZUELA",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 20,
+        "question": "Color más común de chicle o goma de mascar.",
+        "answers": [{
+                "text": "BLANCO",
+                "value": 29,
+                "visible": false
+            }, {
+                "text": "ROSA",
+                "value": 26,
+                "visible": false
+            }, {
+                "text": "AZUL",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "ROJO",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "VERDE",
+                "value": 13,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 21,
+        "question": "Si la Cenicienta visitara al psicólogo ¿De qué hablaría con él?",
+        "answers": [{
+                "text": "PROBLEMAS",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "PRÍNCIPE",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "MADRASTRA",
+                "value": 21,
+                "visible": false
+            }, {
+                "text": "TRAUMAS",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "HADA MADRINA",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 22,
+        "question": "Si transportas vidrio en cajas, ¿Qué escribirías en ellas para protegerlas?",
+        "answers": [{
+                "text": "FRÁGIL",
+                "value": 74,
+                "visible": false
+            }, {
+                "text": "CUIDADO",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "OBJETOS DE VIDRIO",
+                "value": 4,
+                "visible": false
+            }, {
+                "text": "DELICADO",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "PRECAUCIÓN",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 23,
+        "question": "Cuando eras niño, ¿A qué hora te acostaban tus padres?",
+        "answers": [{
+                "text": "OCHO",
+                "value": 46,
+                "visible": false
+            }, {
+                "text": "NUEVE",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "DIEZ",
+                "value": 11,
+                "visible": false
+            }, {
+                "text": "SIETE",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "SEIS",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 24,
+        "question": "Si el presidente Obama y su esposa discutieran ¿Sobre qué tema sería?",
+        "answers": [{
+                "text": "INMIGRACIÓN",
+                "value": 32,
+                "visible": false
+            }, {
+                "text": "HIJOS",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "ECONOMÍA",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "INFIDELIDAD",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "POLÍTICA",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 25,
+        "question": "Si tu suegra fuera una víbora ¿Cuál sería?",
+        "answers": [{
+                "text": "CASCABEL",
+                "value": 37,
+                "visible": false
+            }, {
+                "text": "COBRA",
+                "value": 28,
+                "visible": false
+            }, {
+                "text": "ANACONDA",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "CORALILLO",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "SERPIENTE",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 26,
+        "question": "Si existiera una universidad para reinas de belleza ¿Qué enseñarían?",
+        "answers": [{
+                "text": "MAQUILLAJE",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "CAMINAR",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "MODALES",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "BELLEZA",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "MATEMÁTICAS",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 27,
+        "question": "¿Qué tipo de música utilizas mientras limpias tu casa?",
+        "answers": [{
+                "text": "SALSA",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "REGIONAL",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "ROMÁNTICAS",
+                "value": 21,
+                "visible": false
+            }, {
+                "text": "RANCHERA",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "BACHATA",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 28,
+        "question": "Si tuviera la crisis de los 40's, ¿Qué compraría un hombre?",
+        "answers": [{
+                "text": "CARRO",
+                "value": 43,
+                "visible": false
+            }, {
+                "text": "MOTOCICLETA",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "ROPA",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "LICOR",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "VITAMINAS",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 29,
+        "question": "¿Cuántos contactos tienes en tu teléfono celular?",
+        "answers": [{
+                "text": "CINCUENTA",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "CIEN",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "VEINTE",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "DIEZ",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "TREINTA",
+                "value": 10,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 30,
+        "question": "Si Ninel Conde fuera mesera, y la cuenta $20 dólares ¿Cuánto le das de propina?",
+        "answers": [{
+                "text": "CINCO DÓLARES",
+                "value": 80,
+                "visible": false
+            }, {
+                "text": "VEINTE DÓLARES",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "UN DÓLAR",
+                "value": 7,
+                "visible": false
+            }, {
+                "text": "CIEN DÓLARES",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "DOS DÓLARES",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 31,
+        "question": "¿Cuántas veces al día lavas los trastes?",
+        "answers": [{
+                "text": "TRES",
+                "value": 48,
+                "visible": false
+            }, {
+                "text": "DOS",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "UNA",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "CUATRO",
+                "value": 6,
+                "visible": false
+            }, {
+                "text": "NINGUNA",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 32,
+        "question": "Si Maradona vendiera sus objetos personales ¿Qué te gustaría comprar?",
+        "answers": [{
+                "text": "TENIS",
+                "value": 80,
+                "visible": false
+            }, {
+                "text": "BALÓN",
+                "value": 10,
+                "visible": false
+            }, {
+                "text": "CAMISETA",
+                "value": 5,
+                "visible": false
+            }, {
+                "text": "NADA",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "CALCETINES",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 33,
+        "question": "¿A qué artista latino invitaría Lady Gaga a su fiesta de cumpleaños?",
+        "answers": [{
+                "text": "RICKY MARTIN",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "ALEJANDRO FDZ.",
+                "value": 29,
+                "visible": false
+            }, {
+                "text": "LUIS MIGUEL",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "JUAN GABRIEL",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "PITBULL",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 34,
+        "question": "Si te tuvieran que encerrar en un negocio por un mes ¿Cuál escogerías?",
+        "answers": [{
+                "text": "SUPERMERCADO",
+                "value": 46,
+                "visible": false
+            }, {
+                "text": "TIENDA DE ROPA",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "BAR",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "CENTRO COMERCIAL",
+                "value": 7,
+                "visible": false
+            }, {
+                "text": "PANADERÍA",
+                "value": 6,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 35,
+        "question": "Si se te acaba el papel de baño, ¿Qué haces?",
+        "answers": [{
+                "text": "COMPRAR MÁS",
+                "value": 41,
+                "visible": false
+            }, {
+                "text": "AGARRAR OTRO",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "GRITO POR OTRO",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "BAÑARSE",
+                "value": 10,
+                "visible": false
+            }, {
+                "text": "SERVILLETAS",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 36,
+        "question": "Bebida que tomas en la playa.",
+        "answers": [{
+                "text": "CERVEZA",
+                "value": 40,
+                "visible": false
+            }, {
+                "text": "PIÑA COLADA",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "AGUA",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "AGUA DE COCO",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "SODA",
+                "value": 12,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 37,
+        "question": "Menciona algo que no podrías hacer sin tus documentos oficiales.",
+        "answers": [{
+                "text": "VIAJAR",
+                "value": 45,
+                "visible": false
+            }, {
+                "text": "CASARSE",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "MANEJAR",
+                "value": 11,
+                "visible": false
+            }, {
+                "text": "VOTAR",
+                "value": 7,
+                "visible": false
+            }, {
+                "text": "TRABAJAR",
+                "value": 6,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 38,
+        "question": "Cuando eras niño, ¿Cuánto dinero te dejaba el ratón o el hada de los dientes?",
+        "answers": [{
+                "text": "10 PESOS",
+                "value": 38,
+                "visible": false
+            }, {
+                "text": "NADA",
+                "value": 29,
+                "visible": false
+            }, {
+                "text": "50 PESOS",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "5 PESOS",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "25 PESOS",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 39,
+        "question": "¿A quién invitaría Santa Claus a su fiesta de cumpleaños?",
+        "answers": [{
+                "text": "REYES MAGOS",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "NIÑOS",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "DUENDES",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "JESÚS",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "RENOS",
+                "value": 13,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 40,
+        "question": "Razón por la que te podrías pasar una luz roja",
+        "answers": [{
+                "text": "EMERGENCIA",
+                "value": 33,
+                "visible": false
+            }, {
+                "text": "DISTRACCIÓN",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "HABLAR POR TELÉFONO",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "DESCUIDO",
+                "value": 10,
+                "visible": false
+            }, {
+                "text": "MENSAJEANDO",
+                "value": 9,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 41,
+        "question": "Razón por la que te podrías pasar una luz roja",
+        "answers": [{
+                "text": "EMERGENCIA",
+                "value": 33,
+                "visible": false
+            }, {
+                "text": "DISTRACCIÓN",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "HABLAR POR TELÉFONO",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "DESCUIDO",
+                "value": 10,
+                "visible": false
+            }, {
+                "text": "MENSAJEANDO",
+                "value": 9,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 42,
+        "question": "Otra forma de decir \"no\".",
+        "answers": [{
+                "text": "NEGATIVO",
+                "value": 35,
+                "visible": false
+            }, {
+                "text": "NEL",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "NOP",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "CON LA CABEZA",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "NUNCA",
+                "value": 6,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 43,
+        "question": "¿Cómo le dejas saber a tu pareja que estás pensando en ella cuando están lejos?",
+        "answers": [{
+                "text": "MENSAJE",
+                "value": 71,
+                "visible": false
+            }, {
+                "text": "LLAMADA",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "CARTA DE AMOR",
+                "value": 4,
+                "visible": false
+            }, {
+                "text": "FACEBOOK",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "DEDICAR CANCIÓN",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 44,
+        "question": "¿Cómo identificarías al villano de la película antes de que haga algo malo?",
+        "answers": [{
+                "text": "ACTITUD",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "CARA",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "ROPA",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "MIRADA",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "APARIENCIA",
+                "value": 10,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 45,
+        "question": "Si fueras un príncipe, ¿A qué princesa de cuentos seguirías en Twitter?",
+        "answers": [{
+                "text": "CENICIENTA",
+                "value": 73,
+                "visible": false
+            }, {
+                "text": "BLANCA NIEVES",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "ARIEL",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "BELLA",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "DIANA",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 46,
+        "question": "Si fueras Blanca Nieves, ¿A qué enanito seguirías en Twitter?",
+        "answers": [{
+                "text": "GRUNÓN",
+                "value": 52,
+                "visible": false
+            }, {
+                "text": "TONTÍN",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "DORMILÓN",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "FELÍZ",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "TODOS",
+                "value": 5,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 47,
+        "question": "Animal protagonista de las caricaturas.",
+        "answers": [{
+                "text": "CONEJO",
+                "value": 33,
+                "visible": false
+            }, {
+                "text": "PERRO",
+                "value": 29,
+                "visible": false
+            }, {
+                "text": "GATO",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "RATÓN",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "PATO",
+                "value": 6,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 48,
+        "question": "Tiempo que estás en la sala de espera antes de ver a tu doctor.",
+        "answers": [{
+                "text": "UNA HORA",
+                "value": 46,
+                "visible": false
+            }, {
+                "text": "MEDIA HORA",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "VEINTE MINUTOS",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "DOS HORAS",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "QUINCE MINUTOS",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 49,
+        "question": "Si tu brasier hablara ¿Qué te diría?",
+        "answers": [{
+                "text": "MÁS VOLUMEN",
+                "value": 43,
+                "visible": false
+            }, {
+                "text": "QUÍTAME",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "LÁVAME",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "APRIÉTAME",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "CALOR",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 50,
+        "question": "Color de un abrigo.",
+        "answers": [{
+                "text": "NEGRO",
+                "value": 59,
+                "visible": false
+            }, {
+                "text": "AZUL",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "GRIS",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "CAFÉ",
+                "value": 11,
+                "visible": false
+            }, {
+                "text": "ROJO",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 51,
+        "question": "¿Cómo te das cuenta que una persona con la que hablas no te pone interés?",
+        "answers": [{
+                "text": "NO ME MIRA",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "ME IGNORA",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "VOLTEA LA CARA",
+                "value": 21,
+                "visible": false
+            }, {
+                "text": "ME PREGUNTA OTRA VEZ",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "USA TELÉFONO",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 52,
+        "question": "Si fueras caminando con tu suegra y ella se cayera, ¿Qué harías?",
+        "answers": [{
+                "text": "LEVANTARLA",
+                "value": 52,
+                "visible": false
+            }, {
+                "text": "AYUDAR",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "ME RIO",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "DEJARLA",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "CORRO",
+                "value": 1,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 53,
+        "question": "Si fueras Vicente Fernández ¿Qué animal sería el consentido de tu rancho?",
+        "answers": [{
+                "text": "CABALLO",
+                "value": 80,
+                "visible": false
+            }, {
+                "text": "PERRO",
+                "value": 4,
+                "visible": false
+            }, {
+                "text": "GALLO",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "LEÓN",
+                "value": 2,
+                "visible": false
+            }, {
+                "text": "TORO",
+                "value": 1,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 54,
+        "question": "¿Cuántos integrantes podría tener un grupo musical?",
+        "answers": [{
+                "text": "CINCO",
+                "value": 35,
+                "visible": false
+            }, {
+                "text": "SEIS",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "DIEZ",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "OCHO",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "DOCE",
+                "value": 10,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 55,
+        "question": "Si tuvieras que vivir en el supermercado ¿Cuál sería tu departamento favorito?",
+        "answers": [{
+                "text": "FRUTAS",
+                "value": 37,
+                "visible": false
+            }, {
+                "text": "COMIDA",
+                "value": 32,
+                "visible": false
+            }, {
+                "text": "PANADERÍA",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "VERDURAS",
+                "value": 7,
+                "visible": false
+            }, {
+                "text": "CONGELADO",
+                "value": 6,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 56,
+        "question": "Forma de demostrar que quieres a alguien.",
+        "answers": [{
+                "text": "BESOS",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "ABRAZOS",
+                "value": 28,
+                "visible": false
+            }, {
+                "text": "REGALO",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "FLORES",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "CARIÑO",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 57,
+        "question": "¿Cuántos amigos tienes en facebook?",
+        "answers": [{
+                "text": "NO TENGO",
+                "value": 30,
+                "visible": false
+            }, {
+                "text": "CIEN",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "DOSCIENTOS",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "VEINTE",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "CINCUENTA",
+                "value": 16,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 58,
+        "question": "Menciona algo que te puede hacer sonreír.",
+        "answers": [{
+                "text": "CHISTE",
+                "value": 52,
+                "visible": false
+            }, {
+                "text": "FAMILIA",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "BROMA",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "BEBÉ",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "CAERSE",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 59,
+        "question": "Color de bufanda.",
+        "answers": [{
+                "text": "NEGRO",
+                "value": 41,
+                "visible": false
+            }, {
+                "text": "ROJO",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "AZUL",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "CAFÉ",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "BLANCO",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 60,
+        "question": "Si una bruja se descuida mientras vuela ¿Contra qué podría chocar?",
+        "answers": [{
+                "text": "ÁRBOL",
+                "value": 40,
+                "visible": false
+            }, {
+                "text": "PARED",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "POSTE",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "AVIÓN",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "EDIFICIO",
+                "value": 11,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 61,
+        "question": "Si tu hijo estuviera saliendo con alguien, ¿Qué artista latina te gustaría que fuera?",
+        "answers": [{
+                "text": "GLORIA TREVI",
+                "value": 73,
+                "visible": false
+            }, {
+                "text": "NINEL CONDE",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "SHAKIRA",
+                "value": 5,
+                "visible": false
+            }, {
+                "text": "JENNIFER LÓPEZ",
+                "value": 4,
+                "visible": false
+            }, {
+                "text": "CRISTINA AGUILERA",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 62,
+        "question": "Otra forma de decir \"sí\".",
+        "answers": [{
+                "text": "CLARO",
+                "value": 35,
+                "visible": false
+            }, {
+                "text": "YES",
+                "value": 25,
+                "visible": false
+            }, {
+                "text": "OK",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "SIMÓN",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "AJÁ",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 63,
+        "question": "Si la silla donde te sientas todo el día se pudiera quejar ¿Qué te diría?",
+        "answers": [{
+                "text": "LEVÁNTATE",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "BAJA DE PESO",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "COMO PESAS",
+                "value": 21,
+                "visible": false
+            }, {
+                "text": "HUELES MAL",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "NO TE MUEVAS",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 64,
+        "question": "Si tu hija te presenta a su novio, ¿Qué artista latino te gustaría que fuera?",
+        "answers": [{
+                "text": "WIILLIAM LEVY",
+                "value": 55,
+                "visible": false
+            }, {
+                "text": "RICKY MARTIN",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "CHAYANNE",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "LUIS MIGUEL",
+                "value": 9,
+                "visible": false
+            }, {
+                "text": "PRINCE ROYCE",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 65,
+        "question": "Si vivieras en un cuento de hadas ¿A quién te encontrarías en el super?",
+        "answers": [{
+                "text": "PRÍNCIPE",
+                "value": 31,
+                "visible": false
+            }, {
+                "text": "BLANCA NIEVES",
+                "value": 28,
+                "visible": false
+            }, {
+                "text": "CENICIENTA",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "BRUJA",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "SHREK",
+                "value": 6,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 66,
+        "question": "Si existiera la Universidad De La Buena Suegra ¿Qué le enseñarías a la tuya?",
+        "answers": [{
+                "text": "NO SER ENTROMETIDA",
+                "value": 66,
+                "visible": false
+            }, {
+                "text": "RESPETAR",
+                "value": 21,
+                "visible": false
+            }, {
+                "text": "MODALES",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "COCINAR",
+                "value": 3,
+                "visible": false
+            }, {
+                "text": "GUARDAR SILENCIO",
+                "value": 2,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 67,
+        "question": "Si te quedaras encerrado en un elevador, ¿Qué harías?",
+        "answers": [{
+                "text": "GRITAR",
+                "value": 40,
+                "visible": false
+            }, {
+                "text": "PRESIONAR LA ALARMA",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "ESPERAR",
+                "value": 19,
+                "visible": false
+            }, {
+                "text": "LLAMAR",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "MANTENER CALMA",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 68,
+        "question": "¿A qué te gustaría perder el miedo?",
+        "answers": [{
+                "text": "ALTURAS",
+                "value": 52,
+                "visible": false
+            }, {
+                "text": "VÍBORA",
+                "value": 23,
+                "visible": false
+            }, {
+                "text": "SOLEDAD",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "MUERTE",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "RATONES",
+                "value": 5,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 69,
+        "question": "¿En qué puedes meter todo el cuerpo?",
+        "answers": [{
+                "text": "BAÑERA",
+                "value": 32,
+                "visible": false
+            }, {
+                "text": "ALBERCA",
+                "value": 26,
+                "visible": false
+            }, {
+                "text": "CARRO",
+                "value": 14,
+                "visible": false
+            }, {
+                "text": "AGUA",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "BAÑO",
+                "value": 16,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 70,
+        "question": "Color de camisa más usado por los hombres.",
+        "answers": [{
+                "text": "AZUL",
+                "value": 43,
+                "visible": false
+            }, {
+                "text": "BLANCO",
+                "value": 29,
+                "visible": false
+            }, {
+                "text": "NEGRO",
+                "value": 25,
+                "visible": false
+            }, {
+                "text": "GRIS",
+                "value": 2,
+                "visible": false
+            }, {
+                "text": "ROJO",
+                "value": 1,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 71,
+        "question": "Si Vicente Fernández fuera tu papá ¿Qué te regalaría el día de tu boda?",
+        "answers": [{
+                "text": "CABALLO",
+                "value": 56,
+                "visible": false
+            }, {
+                "text": "RANCHO",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "CASA",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "CARRO",
+                "value": 8,
+                "visible": false
+            }, {
+                "text": "CANCIÓN",
+                "value": 5,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 72,
+        "question": "Si en una cita amorosa olvidaras el nombre de tu galán ¿Cómo le dirías?",
+        "answers": [{
+                "text": "MI AMOR",
+                "value": 63,
+                "visible": false
+            }, {
+                "text": "CARIÑO",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "TÚ",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "BEBE",
+                "value": 4,
+                "visible": false
+            }, {
+                "text": "CORAZÓN",
+                "value": 3,
+                "visible": false
+            }
+        ]
+    }
+]

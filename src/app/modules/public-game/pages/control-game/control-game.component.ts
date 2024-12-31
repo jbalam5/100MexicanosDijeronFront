@@ -233,6 +233,10 @@ export class ControlGameComponent {
   }
 
   addStrike(){
+    if(this.isFinishedRound){
+      return;
+    }
+    
     if(this.currentScore.currentRound <= 0){
       return;
     }
