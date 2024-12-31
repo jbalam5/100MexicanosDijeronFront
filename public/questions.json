@@ -1798,5 +1798,236 @@
                 "visible": false
             }
         ]
+    }, {
+        "id": 73,
+        "question": "Forma popular para decir niño",
+        "answers": [{
+                "text": "Chamaco",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "Mocoso",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "Escuicle.",
+                "value": 15,
+                "visible": false
+            }, {
+                "text": "Chiquillo",
+                "value": 8,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 74,
+        "question": "alimentos para freir",
+        "answers": [{
+                "text": "Pollo",
+                "value": 56,
+                "visible": false
+            }, {
+                "text": "Pescado",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "Carne",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "Papas",
+                "value": 13,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 75,
+        "question": "Menciona frutas con semilla",
+        "answers": [{
+                "text": "Naranja",
+                "value": 22,
+                "visible": false
+            }, {
+                "text": "Manzana",
+                "value": 18,
+                "visible": false
+            }, {
+                "text": "Sandia",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "Limon",
+                "value": 15,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 76,
+        "question": "Menciona razones por las cuales un carro se pararia en un viaje por carretera",
+        "answers": [{
+                "text": "Carro descompuesto",
+                "value": 33,
+                "visible": false
+            }, {
+                "text": "Descansar",
+                "value": 12,
+                "visible": false
+            }, {
+                "text": "Accidente",
+                "value": 11,
+                "visible": false
+            }, {
+                "text": "Ir al baño",
+                "value": 33,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 77,
+        "question": "Menciona los alimentos mexicanos mas populares que usen tortilla",
+        "answers": [{
+                "text": "Tacos",
+                "value": 65,
+                "visible": false
+            }, {
+                "text": "Chilaquiles",
+                "value": 25,
+                "visible": false
+            }, {
+                "text": "Enchiladas",
+                "value": 6,
+                "visible": false
+            }, {
+                "text": "Sopa de tortilla",
+                "value": 4,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 78,
+        "question": "Menciona los propositos mas comunes de año nuevo",
+        "answers": [{
+                "text": "Hacer dieta",
+                "value": 33,
+                "visible": false
+            }, {
+                "text": "Hacer ejercicio",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "Ahorrar",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "Encontrar pareja",
+                "value": 19,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 79,
+        "question": "Nombra los idiomas mas hablados en el mundo",
+        "answers": [{
+                "text": "Ingles",
+                "value": 50,
+                "visible": false
+            }, {
+                "text": "Chino mandarin",
+                "value": 20,
+                "visible": false
+            }, {
+                "text": "Hindi",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "Español",
+                "value": 13,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 80,
+        "question": "Menciona problemas que te pueden pasar en el baño",
+        "answers": [{
+                "text": "No hay papel",
+                "value": 41,
+                "visible": false
+            }, {
+                "text": "No hay agua",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "Se tapo el baño",
+                "value": 13,
+                "visible": false
+            }, {
+                "text": "Estreñimiento",
+                "value": 10,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 81,
+        "question": "Menciona partes del cuerpo que mas comun duelen",
+        "answers": [{
+                "text": "Cabeza",
+                "value": 45,
+                "visible": false
+            }, {
+                "text": "Estomago/vientre",
+                "value": 29,
+                "visible": false
+            }, {
+                "text": "Espalda",
+                "value": 17,
+                "visible": false
+            }, {
+                "text": "Piernas",
+                "value": 9,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 82,
+        "question": "Menciona algo que las mujeres hacen mas comun con su cabello que los hombres",
+        "answers": [{
+                "text": "Pintar",
+                "value": 42,
+                "visible": false
+            }, {
+                "text": "Alaciar",
+                "value": 27,
+                "visible": false
+            }, {
+                "text": "Enchinar",
+                "value": 24,
+                "visible": false
+            }, {
+                "text": "Peinarse.",
+                "value": 7,
+                "visible": false
+            }
+        ]
+    }, {
+        "id": 83,
+        "question": "Regalos mas comunes para el dia de las madres",
+        "answers": [{
+                "text": "Flores",
+                "value": 47,
+                "visible": false
+            }, {
+                "text": "Electrodomesticos",
+                "value": 25,
+                "visible": false
+            }, {
+                "text": "Joyas",
+                "value": 16,
+                "visible": false
+            }, {
+                "text": "Una carnita asada",
+                "value": 12,
+                "visible": false
+            }
+        ]
     }
 ]
