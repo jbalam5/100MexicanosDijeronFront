@@ -5,6 +5,8 @@ export class Score{
     totalPoints:number = 0;
     currentRound:number = 0;
     isFinished:boolean = false;
+    teamOneName:string = 'Familia 1';
+    teamTwoName:string = 'Familia 2';
 
     constructor(){}
 }
