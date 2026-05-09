@@ -1,78 +1,82 @@
-<div class="container mx-auto px-4 py-8">
-    <div class="grid grid-flow-row auto-rows-max block px-5 py-9">
-        @if( currentScore.currentRound > 0){
-            <div class="grid grid-cols-6 shadow-lg">
-                <div></div>
-                <div class="col-span-4 text-center text-5xl rounded-t-lg border-4 border-yellow-400 px-5 py-2 text-white-300">
-                    Ronda {{ currentScore.currentRound }} <br>
-                    <span class="goldtext text-7xl">
-                        {{ currentScore.totalPoints }}
-                    </span> 
-                </div>
-                <div></div>
-            </div>
-        }
-        <div class="grid grid-cols-6 shadow-lg">
-            <div></div>
-            <div class="col-span-4 py-5 text-center text-4xl border-4 border-b-0  border-yellow-400 px-5">
-                <h1 class=""> {{ currentTextQuestion }}</h1>
-            </div>
-            <div></div>
-        </div>
-        <div class="grid grid-cols-6 shadow-lg">
-            <div class="col-span-1 text-5xl text-center">
-                <div class="border-4 border-r-0 border-yellow-400  px-5 py-2">
-                    Equipo 1
-                    <span class="goldtext text-7xl">
-                        {{ currentScore.totalTeamOne }}
-                    </span>
-                </div>
-            </div>
-            <div class="col-span-4 text-5xl rounded-b-lg border-4 border-yellow-400 px-5 py-2">
+<div class="board-wrapper">
 
-                <ol class="text-yellow-300 divide-y divide-dashed">
-                    @for (item of currentQuestion?.answers; track $index; let  i = $index) {
-                        <li class="flex  justify-between py-5">
-                            @if (!item.visible){
-                                <span>
-                                    {{ i+1 }}. 
-                                </span>
-                            }
-                            @else {
-                                <span>
-                                    {{ i+1 }}. {{ item.text }}
-                                </span>
-                                <span>
-                                    {{ item.value }}
-                                </span>
-                            }
-                        </li>
-                    }
-                </ol>
-            </div>
-            <div class="col-span-1 text-5xl text-center">
-                <div class="border-4 border-l-0 border-yellow-400 px-5 py-2">
-                    Equipo 2
-                    <span class="goldtext text-7xl">
-                        {{ currentScore.totalTeamTwo }}
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 text-center text-9xl text-red-500">
-            <span>
-                @for (item of getCounterError(currentScore.totalError); track $index) {
-                    X 
-                }
-            </span>
-        </div>
+  <!-- BANDA 1: Logo / Título -->
+  <div class="band band-logo">
+    <div class="logo-text">100 Mexicanos Dijeron</div>
+  </div>
+
+  <!-- BANDA 2: Ronda + Puntos (condicional) -->
+  @if (currentScore.currentRound > 0) {
+    <div class="band band-round">
+      <div class="round-info">
+        <span class="round-label">RONDA</span>
+        <span class="round-number">{{ currentScore.currentRound }}</span>
+        <span class="round-sep">|</span>
+        <span class="round-label">PUNTOS</span>
+        <span class="round-points goldtext">{{ currentScore.totalPoints }}</span>
+      </div>
     </div>
+  }
+
+  <!-- BANDA 3: Pregunta -->
+  <div class="band band-question">
+    <div class="question-box">
+      <h1 class="question-text">{{ currentTextQuestion }}</h1>
+    </div>
+  </div>
+
+  <!-- BANDA 4: Tablero principal -->
+  <div class="band band-main">
+
+    <!-- Panel Familia 1 -->
+    <div class="team-panel team-one">
+      <div class="team-label">FAMILIA</div>
+      <div class="team-name">{{ currentScore.teamOneName || 'Familia 1' }}</div>
+      <div class="team-score goldtext">{{ currentScore.totalTeamOne }}</div>
+    </div>
+
+    <!-- Casillas de respuestas -->
+    <div class="answers-grid">
+      @for (item of currentQuestion?.answers; track $index; let i = $index) {
+        <div class="answer-slot" [class.revealed]="item.visible">
+          <!-- Cara frontal: oculta -->
+          <div class="answer-face front">
+            <span class="answer-num">{{ i + 1 }}</span>
+            <span class="answer-hidden-bar"></span>
+          </div>
+          <!-- Cara trasera: revelada -->
+          <div class="answer-face back">
+            <span class="answer-num">{{ i + 1 }}</span>
+            <span class="answer-text">{{ item.text }}</span>
+            <span class="answer-value">{{ item.value }}</span>
+          </div>
+        </div>
+      }
+    </div>
+
+    <!-- Panel Familia 2 -->
+    <div class="team-panel team-two">
+      <div class="team-label">FAMILIA</div>
+      <div class="team-name">{{ currentScore.teamTwoName || 'Familia 2' }}</div>
+      <div class="team-score goldtext">{{ currentScore.totalTeamTwo }}</div>
+    </div>
+
+  </div>
+
+  <!-- BANDA 5: Strikes -->
+  <div class="band band-strikes">
+    @for (item of getCounterError(currentScore.totalError); track $index) {
+      <span class="strike-mark">✕</span>
+    }
+  </div>
+
 </div>
 
 <style>
-    
-    body{
-        background-color: #000000 !important;
-        color: #ffffff !important;
-    }
+  body {
+    background-color: #00004B !important;
+    color: #ffffff !important;
+    margin: 0;
+    overflow: hidden;
+  }
 </style>
