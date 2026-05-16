@@ -2029,5 +2029,390 @@
                 "visible": false
             }
         ]
+    },
+    {
+        "id": 84,
+        "question": "¿Qué es lo primero que revisas en tu celular al despertar?",
+        "answers": [
+            {"text": "WHATSAPP", "value": 45, "visible": false},
+            {"text": "INSTAGRAM", "value": 25, "visible": false},
+            {"text": "FACEBOOK", "value": 15, "visible": false},
+            {"text": "EL CLIMA", "value": 10, "visible": false},
+            {"text": "LAS NOTICIAS", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 85,
+        "question": "¿Qué excusa pones para no ir al gimnasio?",
+        "answers": [
+            {"text": "ESTOY MUY CANSADO", "value": 35, "visible": false},
+            {"text": "NO TENGO TIEMPO", "value": 28, "visible": false},
+            {"text": "MAÑANA EMPIEZO", "value": 22, "visible": false},
+            {"text": "ME DUELE ALGO", "value": 10, "visible": false},
+            {"text": "ESTÁ LLOVIENDO", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 86,
+        "question": "¿Cuál es el antojo más común a media noche?",
+        "answers": [
+            {"text": "TACOS", "value": 40, "visible": false},
+            {"text": "PIZZA", "value": 25, "visible": false},
+            {"text": "TORTA", "value": 18, "visible": false},
+            {"text": "ELOTES O ESQUITES", "value": 12, "visible": false},
+            {"text": "FRITURAS", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 87,
+        "question": "¿Qué le dices a tu jefe cuando llegas tarde?",
+        "answers": [
+            {"text": "HABÍA TRÁFICO", "value": 50, "visible": false},
+            {"text": "SE ME FUE EL CAMIÓN", "value": 22, "visible": false},
+            {"text": "TUVE UNA EMERGENCIA", "value": 18, "visible": false},
+            {"text": "SE ME OLVIDÓ EL DESPERTADOR", "value": 7, "visible": false},
+            {"text": "NO DIGO NADA", "value": 3, "visible": false}
+        ]
+    },
+    {
+        "id": 88,
+        "question": "¿Qué no puede faltar en una reunión familiar mexicana?",
+        "answers": [
+            {"text": "COMIDA", "value": 40, "visible": false},
+            {"text": "MÚSICA", "value": 25, "visible": false},
+            {"text": "CHISMES", "value": 20, "visible": false},
+            {"text": "CERVEZA", "value": 10, "visible": false},
+            {"text": "PIÑATA", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 89,
+        "question": "¿Qué es lo primero que haces cuando se va la luz?",
+        "answers": [
+            {"text": "BUSCO EL CELULAR", "value": 40, "visible": false},
+            {"text": "BUSCO VELAS", "value": 28, "visible": false},
+            {"text": "ME ASOMO A VER SI LOS VECINOS TAMBIÉN", "value": 18, "visible": false},
+            {"text": "ME QUEJO", "value": 10, "visible": false},
+            {"text": "ME DUERMO", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 90,
+        "question": "¿Qué hace la gente cuando está en una junta aburrida de trabajo?",
+        "answers": [
+            {"text": "VE EL CELULAR", "value": 38, "visible": false},
+            {"text": "FINGE QUE TOMA NOTAS", "value": 25, "visible": false},
+            {"text": "SUEÑA DESPIERTO", "value": 20, "visible": false},
+            {"text": "DIBUJA EN PAPEL", "value": 12, "visible": false},
+            {"text": "SE DUERME", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 91,
+        "question": "¿Qué es lo que más sobra en las fiestas mexicanas?",
+        "answers": [
+            {"text": "COMIDA", "value": 45, "visible": false},
+            {"text": "CERVEZA", "value": 28, "visible": false},
+            {"text": "MÚSICA", "value": 15, "visible": false},
+            {"text": "FAMILIA", "value": 8, "visible": false},
+            {"text": "DRAMA", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 92,
+        "question": "¿Qué es lo que más extrañas de ser niño?",
+        "answers": [
+            {"text": "NO TENER RESPONSABILIDADES", "value": 40, "visible": false},
+            {"text": "LAS VACACIONES DE VERANO", "value": 28, "visible": false},
+            {"text": "QUE TE DIERAN DE COMER", "value": 18, "visible": false},
+            {"text": "LOS JUGUETES", "value": 10, "visible": false},
+            {"text": "LAS CARICATURAS", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 93,
+        "question": "¿Qué comprarías primero si te ganaras la lotería?",
+        "answers": [
+            {"text": "UNA CASA", "value": 40, "visible": false},
+            {"text": "UN CARRO", "value": 28, "visible": false},
+            {"text": "VIAJES", "value": 18, "visible": false},
+            {"text": "PAGAR DEUDAS", "value": 10, "visible": false},
+            {"text": "ROPA", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 94,
+        "question": "Si los perros pudieran hablar, ¿qué te dirían?",
+        "answers": [
+            {"text": "DAME COMIDA", "value": 40, "visible": false},
+            {"text": "SÁCAME A PASEAR", "value": 28, "visible": false},
+            {"text": "TE EXTRAÑÉ", "value": 18, "visible": false},
+            {"text": "NO ME DEJES SOLO", "value": 10, "visible": false},
+            {"text": "¡JUGUEMOS!", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 95,
+        "question": "¿Qué haces cuando no sabes la respuesta en un examen?",
+        "answers": [
+            {"text": "ADIVINO", "value": 35, "visible": false},
+            {"text": "COPIO", "value": 28, "visible": false},
+            {"text": "DEJO EN BLANCO", "value": 20, "visible": false},
+            {"text": "LE PREGUNTO AL DE JUNTO", "value": 12, "visible": false},
+            {"text": "ME INVENTO ALGO", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 96,
+        "question": "¿Qué es lo que más te molesta de manejar en la ciudad?",
+        "answers": [
+            {"text": "EL TRÁFICO", "value": 45, "visible": false},
+            {"text": "LOS TOPES", "value": 22, "visible": false},
+            {"text": "LOS BACHES", "value": 18, "visible": false},
+            {"text": "LOS SEMÁFOROS", "value": 10, "visible": false},
+            {"text": "LOS CLÁXONES", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 97,
+        "question": "¿Qué hace la gente cuando está nerviosa?",
+        "answers": [
+            {"text": "SUDA", "value": 32, "visible": false},
+            {"text": "SE RÍE", "value": 25, "visible": false},
+            {"text": "COME", "value": 22, "visible": false},
+            {"text": "SE MUERDE LAS UÑAS", "value": 14, "visible": false},
+            {"text": "HABLA MUCHO", "value": 7, "visible": false}
+        ]
+    },
+    {
+        "id": 98,
+        "question": "¿Qué es lo primero que haces cuando llegas a casa después del trabajo?",
+        "answers": [
+            {"text": "COMER", "value": 35, "visible": false},
+            {"text": "VER EL CELULAR", "value": 25, "visible": false},
+            {"text": "BAÑARSE", "value": 20, "visible": false},
+            {"text": "ECHARME EN EL SOFÁ", "value": 12, "visible": false},
+            {"text": "QUITARME LOS ZAPATOS", "value": 8, "visible": false}
+        ]
+    },
+    {
+        "id": 99,
+        "question": "¿Qué hace un mexicano cuando México mete un gol?",
+        "answers": [
+            {"text": "GRITA Y SALTA", "value": 45, "visible": false},
+            {"text": "ABRAZA AL QUE ESTÉ CERCA", "value": 25, "visible": false},
+            {"text": "LLORA DE EMOCIÓN", "value": 15, "visible": false},
+            {"text": "TIRA LA COMIDA", "value": 10, "visible": false},
+            {"text": "SE DESMAYA", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 100,
+        "question": "¿Qué no puede faltar para ver el fútbol en casa?",
+        "answers": [
+            {"text": "CERVEZA", "value": 40, "visible": false},
+            {"text": "BOTANA", "value": 30, "visible": false},
+            {"text": "AMIGOS", "value": 18, "visible": false},
+            {"text": "LA PLAYERA DEL EQUIPO", "value": 8, "visible": false},
+            {"text": "EL GRITO", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 101,
+        "question": "¿Qué hace la gente cuando México es eliminado del mundial?",
+        "answers": [
+            {"text": "LLORA", "value": 38, "visible": false},
+            {"text": "SE ENOJA", "value": 28, "visible": false},
+            {"text": "CULPA AL ÁRBITRO", "value": 20, "visible": false},
+            {"text": "CULPA AL TÉCNICO", "value": 10, "visible": false},
+            {"text": "DEJA DE VER EL FÚTBOL", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 102,
+        "question": "¿A qué equipo mexicano le va más gente?",
+        "answers": [
+            {"text": "AMÉRICA", "value": 38, "visible": false},
+            {"text": "CHIVAS", "value": 32, "visible": false},
+            {"text": "CRUZ AZUL", "value": 15, "visible": false},
+            {"text": "PUMAS", "value": 10, "visible": false},
+            {"text": "TIGRES", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 103,
+        "question": "¿Qué grita la gente en el estadio además de gol?",
+        "answers": [
+            {"text": "¡FUERA!", "value": 35, "visible": false},
+            {"text": "EL NOMBRE DEL JUGADOR", "value": 25, "visible": false},
+            {"text": "¡FOUL!", "value": 20, "visible": false},
+            {"text": "¡ÁRBITRO VENDIDO!", "value": 15, "visible": false},
+            {"text": "GROSERÍAS", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 104,
+        "question": "¿Qué hace una mujer cuando está enojada con su pareja?",
+        "answers": [
+            {"text": "NO LE HABLA", "value": 40, "visible": false},
+            {"text": "LE DA EL TRATAMIENTO DE HIELO", "value": 25, "visible": false},
+            {"text": "SALE CON SUS AMIGAS", "value": 18, "visible": false},
+            {"text": "LLORA", "value": 12, "visible": false},
+            {"text": "LE DA UN ULTIMÁTUM", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 105,
+        "question": "¿Cuál es la frase más usada en una pelea de pareja?",
+        "answers": [
+            {"text": "ESTÁS IGUAL QUE TU MAMÁ", "value": 35, "visible": false},
+            {"text": "SIEMPRE LO MISMO", "value": 28, "visible": false},
+            {"text": "NO ES LO QUE DICES, ES CÓMO LO DICES", "value": 20, "visible": false},
+            {"text": "HAZ LO QUE QUIERAS", "value": 12, "visible": false},
+            {"text": "YA NO TE CONOZCO", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 106,
+        "question": "¿Qué regalo da un hombre cuando se pelea con su novia?",
+        "answers": [
+            {"text": "FLORES", "value": 40, "visible": false},
+            {"text": "CHOCOLATES", "value": 28, "visible": false},
+            {"text": "UNA CENA", "value": 18, "visible": false},
+            {"text": "UN PELUCHE", "value": 10, "visible": false},
+            {"text": "PIDE PERDÓN SIN REGALO", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 107,
+        "question": "¿Cómo sabe alguien que le gustas?",
+        "answers": [
+            {"text": "TE MIRA MUCHO", "value": 38, "visible": false},
+            {"text": "TE ESCRIBE POR WHATSAPP", "value": 27, "visible": false},
+            {"text": "SE RÍE DE TODO LO QUE DICES", "value": 18, "visible": false},
+            {"text": "BUSCA PRETEXTOS PARA HABLAR CONTIGO", "value": 12, "visible": false},
+            {"text": "TE PONE APODOS", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 108,
+        "question": "¿Qué hace la gente el día de San Valentín sin pareja?",
+        "answers": [
+            {"text": "SALE CON AMIGOS", "value": 35, "visible": false},
+            {"text": "SE QUEDA EN CASA VIENDO PELÍCULAS", "value": 28, "visible": false},
+            {"text": "COME CHOCOLATES SOLO", "value": 20, "visible": false},
+            {"text": "PUBLICA EN REDES SOCIALES", "value": 12, "visible": false},
+            {"text": "LLORA", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 109,
+        "question": "¿A qué hora realmente empieza a trabajar la gente?",
+        "answers": [
+            {"text": "A LAS 9 EN PUNTO", "value": 30, "visible": false},
+            {"text": "A LAS 10", "value": 25, "visible": false},
+            {"text": "DESPUÉS DEL CAFÉ", "value": 22, "visible": false},
+            {"text": "AL MEDIODÍA", "value": 15, "visible": false},
+            {"text": "NUNCA", "value": 8, "visible": false}
+        ]
+    },
+    {
+        "id": 110,
+        "question": "¿Qué hace la gente en la oficina para no trabajar?",
+        "answers": [
+            {"text": "VE REDES SOCIALES", "value": 40, "visible": false},
+            {"text": "CHATEA POR WHATSAPP", "value": 28, "visible": false},
+            {"text": "SE VA A HABLAR CON ALGUIEN", "value": 18, "visible": false},
+            {"text": "VA AL BAÑO SEGUIDO", "value": 10, "visible": false},
+            {"text": "ORDENA SU ESCRITORIO", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 111,
+        "question": "¿Qué dice la gente el lunes por la mañana en la oficina?",
+        "answers": [
+            {"text": "YA QUIERO QUE SEA VIERNES", "value": 42, "visible": false},
+            {"text": "BUENOS DÍAS SIN GANAS", "value": 25, "visible": false},
+            {"text": "¿VIERON EL PARTIDO?", "value": 18, "visible": false},
+            {"text": "ESTOY MUY CANSADO", "value": 10, "visible": false},
+            {"text": "FELIZ INICIO DE SEMANA", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 112,
+        "question": "¿Qué hace la gente en cuanto llega el viernes por la tarde?",
+        "answers": [
+            {"text": "SALE CORRIENDO", "value": 38, "visible": false},
+            {"text": "PLANEA EL FIN DE SEMANA", "value": 27, "visible": false},
+            {"text": "SE VA DE ANTRO O BAR", "value": 20, "visible": false},
+            {"text": "DESCANSA EN CASA", "value": 12, "visible": false},
+            {"text": "SE QUEDA A HACER HORAS EXTRA", "value": 3, "visible": false}
+        ]
+    },
+    {
+        "id": 113,
+        "question": "¿Cómo pide un empleado un aumento de sueldo?",
+        "answers": [
+            {"text": "LE PIDE UNA JUNTA AL JEFE", "value": 35, "visible": false},
+            {"text": "ESPERA EL MOMENTO ADECUADO", "value": 27, "visible": false},
+            {"text": "AMENAZA CON RENUNCIAR", "value": 22, "visible": false},
+            {"text": "MANDA UN CORREO", "value": 12, "visible": false},
+            {"text": "NO PIDE, ESPERA QUE LO NOTEN", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 114,
+        "question": "¿Qué le pones a los tacos?",
+        "answers": [
+            {"text": "SALSA", "value": 45, "visible": false},
+            {"text": "LIMÓN", "value": 28, "visible": false},
+            {"text": "CILANTRO Y CEBOLLA", "value": 15, "visible": false},
+            {"text": "CREMA", "value": 8, "visible": false},
+            {"text": "GUACAMOLE", "value": 4, "visible": false}
+        ]
+    },
+    {
+        "id": 115,
+        "question": "¿Cuál es el platillo favorito en una carne asada?",
+        "answers": [
+            {"text": "ARRACHERA", "value": 40, "visible": false},
+            {"text": "CHORIZO", "value": 25, "visible": false},
+            {"text": "ALITAS", "value": 18, "visible": false},
+            {"text": "COSTILLAS", "value": 12, "visible": false},
+            {"text": "QUESADILLAS", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 116,
+        "question": "¿Qué bebida tomas con los tacos?",
+        "answers": [
+            {"text": "AGUA DE SABOR", "value": 35, "visible": false},
+            {"text": "CERVEZA", "value": 30, "visible": false},
+            {"text": "REFRESCO", "value": 20, "visible": false},
+            {"text": "AGUA NATURAL", "value": 10, "visible": false},
+            {"text": "MICHELADA", "value": 5, "visible": false}
+        ]
+    },
+    {
+        "id": 117,
+        "question": "¿Cuál es el chile más popular en la cocina mexicana?",
+        "answers": [
+            {"text": "JALAPEÑO", "value": 38, "visible": false},
+            {"text": "SERRANO", "value": 25, "visible": false},
+            {"text": "HABANERO", "value": 18, "visible": false},
+            {"text": "CHIPOTLE", "value": 12, "visible": false},
+            {"text": "POBLANO", "value": 7, "visible": false}
+        ]
+    },
+    {
+        "id": 118,
+        "question": "¿Qué antojo pides cuando tienes cruda?",
+        "answers": [
+            {"text": "MENUDO O POZOLE", "value": 38, "visible": false},
+            {"text": "TACOS", "value": 28, "visible": false},
+            {"text": "MICHELADA", "value": 20, "visible": false},
+            {"text": "CALDO DE POLLO", "value": 10, "visible": false},
+            {"text": "AGUA DE LIMÓN", "value": 4, "visible": false}
+        ]
     }
 ]
